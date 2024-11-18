@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.istockphoto.com/id/916151342/vector/blue-soccer-background-with-different-icons-and-football-players-pattern.jpg?s=612x612&w=0&k=20&c=Fo1jYvJuH4vchZUtTVGU-HQgoJVWnVsQ853WJHGEWV0=);
+    color: #333;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPNg-i1oociM5i2pKfI97dxCTQxNV7zEif7w&s);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 3;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #0066cc;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+
+main {
+    padding: 20px;
+}
+h2 {
+    color: Black;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#signup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#signup form {
+    display: flex;
+}
+
+#signup input[type="email"] {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+#signup input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#signup input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+
+#signup, #signin, #search {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+#search {
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+}
+
+#search input[type="text"], #search input[type="submit"] {
+    margin-right: 5px; 
+    padding: 5px; 
+}
+
+#signup {
+    position: absolute; 
+    top: 10px;
+    right: 10px; 
+}
+
+#signup input[type="email"], #signup input[type="submit"] {
+    margin-left: 5px; 
+    padding: 5px; 
+}
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+#contact input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+#social-media ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#social-media ul li {
+    margin: 0 10px;
+}
+
+#social-media ul li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #003366;
+    transition: color 0.3s ease;
+}
+
+#social-media ul li a:hover {
+    color: #0066cc;
+}
